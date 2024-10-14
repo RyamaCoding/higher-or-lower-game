@@ -61,6 +61,7 @@ def game():
 
         else: 
             print("Invalid input. Please try again.")
+            continue 
 
         # If the game is still ongoing, clear the screen and display updated comparison
         if not game_over:
